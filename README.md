@@ -8,4 +8,10 @@ Clone it and detach its remote origin:
 
 - git clone --depth 1 https://github.com/lucclaesen/ts-react-redux.git ${yourNewProject}
 - cd ${yourNewProject}
+- rm -rf .git && git init
+
+or 
+
+- git clone https://github.com/lucclaesen/ts-react-redux.git ${yourNewProject}
+- cd ${yourNewProject}
 - git remote rm origin
